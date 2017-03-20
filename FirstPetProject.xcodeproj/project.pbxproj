@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF25A4A01E7FDF67007FE5DD /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF25A49F1E7FDF67007FE5DD /* Interactor.swift */; };
+		BF25A4A21E7FE096007FE5DD /* IncrementInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF25A4A11E7FE096007FE5DD /* IncrementInteractor.swift */; };
+		BF25A4A51E7FF144007FE5DD /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF25A4A41E7FF144007FE5DD /* Repository.swift */; };
+		BF25A4A71E7FF1A6007FE5DD /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF25A4A61E7FF1A6007FE5DD /* App.swift */; };
+		BF25A4A91E7FF271007FE5DD /* ProductionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF25A4A81E7FF271007FE5DD /* ProductionRepository.swift */; };
+		BF25A4AC1E7FF3DA007FE5DD /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF25A4AB1E7FF3DA007FE5DD /* DataStore.swift */; };
+		BF25A4AE1E7FF433007FE5DD /* ProductionDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF25A4AD1E7FF433007FE5DD /* ProductionDataStore.swift */; };
 		BFE238C11E7C325600699EFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE238C01E7C325600699EFA /* AppDelegate.swift */; };
 		BFE238C31E7C325600699EFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE238C21E7C325600699EFA /* ViewController.swift */; };
 		BFE238C61E7C325600699EFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE238C41E7C325600699EFA /* Main.storyboard */; };
@@ -14,6 +21,11 @@
 		BFE238CB1E7C325600699EFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE238C91E7C325600699EFA /* LaunchScreen.storyboard */; };
 		BFE238D61E7C325600699EFA /* FirstPetProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE238D51E7C325600699EFA /* FirstPetProjectTests.swift */; };
 		BFE238E11E7C325600699EFA /* FirstPetProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE238E01E7C325600699EFA /* FirstPetProjectUITests.swift */; };
+		BFE238F11E7C340700699EFA /* MainViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE238F01E7C340700699EFA /* MainViewPresenter.swift */; };
+		BFE238F31E7C345900699EFA /* MainViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE238F21E7C345900699EFA /* MainViewProtocol.swift */; };
+		BFE238F51E7C349A00699EFA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE238F41E7C349A00699EFA /* MainView.swift */; };
+		BFE238F71E7C38D800699EFA /* MainPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE238F61E7C38D800699EFA /* MainPresenterProtocol.swift */; };
+		BFE238F91E7C436D00699EFA /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE238F81E7C436D00699EFA /* BasePresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF25A49F1E7FDF67007FE5DD /* Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		BF25A4A11E7FE096007FE5DD /* IncrementInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncrementInteractor.swift; sourceTree = "<group>"; };
+		BF25A4A41E7FF144007FE5DD /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		BF25A4A61E7FF1A6007FE5DD /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		BF25A4A81E7FF271007FE5DD /* ProductionRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductionRepository.swift; sourceTree = "<group>"; };
+		BF25A4AB1E7FF3DA007FE5DD /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		BF25A4AD1E7FF433007FE5DD /* ProductionDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductionDataStore.swift; sourceTree = "<group>"; };
 		BFE238BD1E7C325600699EFA /* FirstPetProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstPetProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE238C01E7C325600699EFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFE238C21E7C325600699EFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +66,11 @@
 		BFE238DC1E7C325600699EFA /* FirstPetProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstPetProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE238E01E7C325600699EFA /* FirstPetProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPetProjectUITests.swift; sourceTree = "<group>"; };
 		BFE238E21E7C325600699EFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE238F01E7C340700699EFA /* MainViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewPresenter.swift; sourceTree = "<group>"; };
+		BFE238F21E7C345900699EFA /* MainViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewProtocol.swift; sourceTree = "<group>"; };
+		BFE238F41E7C349A00699EFA /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		BFE238F61E7C38D800699EFA /* MainPresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPresenterProtocol.swift; sourceTree = "<group>"; };
+		BFE238F81E7C436D00699EFA /* BasePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +98,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF25A49C1E7FDEB6007FE5DD /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				BF25A49D1E7FDEC4007FE5DD /* interactors */,
+			);
+			name = domain;
+			sourceTree = "<group>";
+		};
+		BF25A49D1E7FDEC4007FE5DD /* interactors */ = {
+			isa = PBXGroup;
+			children = (
+				BF25A49F1E7FDF67007FE5DD /* Interactor.swift */,
+				BF25A4A11E7FE096007FE5DD /* IncrementInteractor.swift */,
+			);
+			name = interactors;
+			sourceTree = "<group>";
+		};
+		BF25A49E1E7FDEF8007FE5DD /* data */ = {
+			isa = PBXGroup;
+			children = (
+				BF25A4AA1E7FF3B9007FE5DD /* datastore */,
+				BF25A4A31E7FF129007FE5DD /* repository */,
+				BF25A4A61E7FF1A6007FE5DD /* App.swift */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+		BF25A4A31E7FF129007FE5DD /* repository */ = {
+			isa = PBXGroup;
+			children = (
+				BF25A4A41E7FF144007FE5DD /* Repository.swift */,
+				BF25A4A81E7FF271007FE5DD /* ProductionRepository.swift */,
+			);
+			name = repository;
+			sourceTree = "<group>";
+		};
+		BF25A4AA1E7FF3B9007FE5DD /* datastore */ = {
+			isa = PBXGroup;
+			children = (
+				BF25A4AB1E7FF3DA007FE5DD /* DataStore.swift */,
+				BF25A4AD1E7FF433007FE5DD /* ProductionDataStore.swift */,
+			);
+			name = datastore;
+			sourceTree = "<group>";
+		};
 		BFE238B41E7C325500699EFA = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +166,9 @@
 		BFE238BF1E7C325600699EFA /* FirstPetProject */ = {
 			isa = PBXGroup;
 			children = (
+				BF25A49E1E7FDEF8007FE5DD /* data */,
+				BF25A49C1E7FDEB6007FE5DD /* domain */,
+				BFE238EE1E7C33C100699EFA /* ui */,
 				BFE238C01E7C325600699EFA /* AppDelegate.swift */,
 				BFE238C21E7C325600699EFA /* ViewController.swift */,
 				BFE238C41E7C325600699EFA /* Main.storyboard */,
@@ -123,6 +195,26 @@
 				BFE238E21E7C325600699EFA /* Info.plist */,
 			);
 			path = FirstPetProjectUITests;
+			sourceTree = "<group>";
+		};
+		BFE238EE1E7C33C100699EFA /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				BFE238EF1E7C33D700699EFA /* mainView */,
+				BFE238F81E7C436D00699EFA /* BasePresenter.swift */,
+			);
+			name = ui;
+			sourceTree = "<group>";
+		};
+		BFE238EF1E7C33D700699EFA /* mainView */ = {
+			isa = PBXGroup;
+			children = (
+				BFE238F01E7C340700699EFA /* MainViewPresenter.swift */,
+				BFE238F21E7C345900699EFA /* MainViewProtocol.swift */,
+				BFE238F41E7C349A00699EFA /* MainView.swift */,
+				BFE238F61E7C38D800699EFA /* MainPresenterProtocol.swift */,
+			);
+			name = mainView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +351,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF25A4AC1E7FF3DA007FE5DD /* DataStore.swift in Sources */,
+				BF25A4A91E7FF271007FE5DD /* ProductionRepository.swift in Sources */,
 				BFE238C31E7C325600699EFA /* ViewController.swift in Sources */,
+				BFE238F91E7C436D00699EFA /* BasePresenter.swift in Sources */,
+				BF25A4AE1E7FF433007FE5DD /* ProductionDataStore.swift in Sources */,
+				BF25A4A71E7FF1A6007FE5DD /* App.swift in Sources */,
 				BFE238C11E7C325600699EFA /* AppDelegate.swift in Sources */,
+				BF25A4A21E7FE096007FE5DD /* IncrementInteractor.swift in Sources */,
+				BFE238F11E7C340700699EFA /* MainViewPresenter.swift in Sources */,
+				BFE238F71E7C38D800699EFA /* MainPresenterProtocol.swift in Sources */,
+				BFE238F51E7C349A00699EFA /* MainView.swift in Sources */,
+				BF25A4A51E7FF144007FE5DD /* Repository.swift in Sources */,
+				BF25A4A01E7FDF67007FE5DD /* Interactor.swift in Sources */,
+				BFE238F31E7C345900699EFA /* MainViewProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +609,7 @@
 				BFE238E71E7C325600699EFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFE238E81E7C325600699EFA /* Build configuration list for PBXNativeTarget "FirstPetProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +618,7 @@
 				BFE238EA1E7C325600699EFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFE238EB1E7C325600699EFA /* Build configuration list for PBXNativeTarget "FirstPetProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +627,7 @@
 				BFE238ED1E7C325600699EFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
