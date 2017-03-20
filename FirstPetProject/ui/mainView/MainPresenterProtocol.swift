@@ -8,6 +8,6 @@
 
 import Foundation
 
-public protocol MainPresenterProtocol{
-    func buttonClicked() 
+public protocol MainPresenterProtocol {
+    func buttonClicked()
 }

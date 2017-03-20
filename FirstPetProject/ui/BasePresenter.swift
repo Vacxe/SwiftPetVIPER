@@ -8,18 +8,18 @@
 
 import Foundation
 
-public class BasePresenter<V>{
-    var view : V?
-    
-    public func setVew(view: V)  {
+public class BasePresenter<V> {
+    var view: V?
+
+    public func setVew(view: V) {
         self.view = view
     }
-    
-    public func dropView(){
+
+    public func dropView() {
         self.view = nil
     }
-    
-    public func getView() -> V?{
+
+    public func getView() -> V? {
         return view
     }
 }

@@ -8,18 +8,18 @@
 
 import Foundation
 
-public final class App{
-    
-    static let instance : App = App()
-    private let dataStore : DataStore
-    private let repository : Repository
-    
-    private init(){
+public final class App {
+
+    static let instance: App = App()
+    private let dataStore: DataStore
+    private let repository: Repository
+
+    private init() {
         dataStore = ProductionDataStore()
         repository = ProductionRepository(dataStore: dataStore)
     }
-    
-    public func getRepository() -> Repository{
+
+    public func getRepository() -> Repository {
         return self.repository
     }
 }

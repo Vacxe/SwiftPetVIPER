@@ -9,14 +9,14 @@
 import Foundation
 
 
-public class ProductionDataStore : DataStore{
-    
-    private var count : Int = 0
-    
+public class ProductionDataStore: DataStore {
+
+    private var count: Int = 0
+
     public func getValue() -> Int {
         return count
     }
-    
+
     public func setValue(value: Int) {
         self.count = value
     }

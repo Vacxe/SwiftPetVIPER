@@ -46,13 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BF25A49F1E7FDF67007FE5DD /* Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
-		BF25A4A11E7FE096007FE5DD /* IncrementInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncrementInteractor.swift; sourceTree = "<group>"; };
-		BF25A4A41E7FF144007FE5DD /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
-		BF25A4A61E7FF1A6007FE5DD /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
-		BF25A4A81E7FF271007FE5DD /* ProductionRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductionRepository.swift; sourceTree = "<group>"; };
-		BF25A4AB1E7FF3DA007FE5DD /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
-		BF25A4AD1E7FF433007FE5DD /* ProductionDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductionDataStore.swift; sourceTree = "<group>"; };
+		BF25A49F1E7FDF67007FE5DD /* Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Interactor.swift; path = domain/interactors/Interactor.swift; sourceTree = "<group>"; };
+		BF25A4A11E7FE096007FE5DD /* IncrementInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IncrementInteractor.swift; path = domain/interactors/IncrementInteractor.swift; sourceTree = "<group>"; };
+		BF25A4A41E7FF144007FE5DD /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Repository.swift; path = data/repository/Repository.swift; sourceTree = "<group>"; };
+		BF25A4A61E7FF1A6007FE5DD /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = App.swift; path = data/App.swift; sourceTree = "<group>"; };
+		BF25A4A81E7FF271007FE5DD /* ProductionRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductionRepository.swift; path = data/repository/ProductionRepository.swift; sourceTree = "<group>"; };
+		BF25A4AB1E7FF3DA007FE5DD /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataStore.swift; path = data/datastore/DataStore.swift; sourceTree = "<group>"; };
+		BF25A4AD1E7FF433007FE5DD /* ProductionDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductionDataStore.swift; path = data/datastore/ProductionDataStore.swift; sourceTree = "<group>"; };
 		BFE238BD1E7C325600699EFA /* FirstPetProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstPetProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE238C01E7C325600699EFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFE238C21E7C325600699EFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,11 +66,11 @@
 		BFE238DC1E7C325600699EFA /* FirstPetProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstPetProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE238E01E7C325600699EFA /* FirstPetProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPetProjectUITests.swift; sourceTree = "<group>"; };
 		BFE238E21E7C325600699EFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BFE238F01E7C340700699EFA /* MainViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewPresenter.swift; sourceTree = "<group>"; };
-		BFE238F21E7C345900699EFA /* MainViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewProtocol.swift; sourceTree = "<group>"; };
-		BFE238F41E7C349A00699EFA /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		BFE238F61E7C38D800699EFA /* MainPresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPresenterProtocol.swift; sourceTree = "<group>"; };
-		BFE238F81E7C436D00699EFA /* BasePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		BFE238F01E7C340700699EFA /* MainViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewPresenter.swift; path = ui/mainView/MainViewPresenter.swift; sourceTree = "<group>"; };
+		BFE238F21E7C345900699EFA /* MainViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewProtocol.swift; path = ui/mainView/MainViewProtocol.swift; sourceTree = "<group>"; };
+		BFE238F41E7C349A00699EFA /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainView.swift; path = ui/mainView/MainView.swift; sourceTree = "<group>"; };
+		BFE238F61E7C38D800699EFA /* MainPresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainPresenterProtocol.swift; path = ui/mainView/MainPresenterProtocol.swift; sourceTree = "<group>"; };
+		BFE238F81E7C436D00699EFA /* BasePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BasePresenter.swift; path = ui/BasePresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

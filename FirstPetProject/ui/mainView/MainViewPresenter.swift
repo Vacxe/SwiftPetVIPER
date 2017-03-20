@@ -8,21 +8,21 @@
 
 import Foundation
 
-public class MainViewPresenter<CountIncrementInteractor : Interactor> : BasePresenter<MainViewProtocol>, MainPresenterProtocol
+public class MainViewPresenter<CountIncrementInteractor:Interactor>: BasePresenter<MainViewProtocol>, MainPresenterProtocol
         where CountIncrementInteractor.T == Int,
-              CountIncrementInteractor.R == Int {
-    
+        CountIncrementInteractor.R == Int {
+
     var count = 0
-    var incrementInteractor : CountIncrementInteractor
-    
-    init(incrementInteractor : CountIncrementInteractor) {
+    var incrementInteractor: CountIncrementInteractor
+
+    init(incrementInteractor: CountIncrementInteractor) {
         self.incrementInteractor = incrementInteractor
     }
-    
+
     public func buttonClicked() {
         count = incrementInteractor.execute(value: count)
         getView()?.setButtonName(name: "Counter is " + String(count))
     }
-    
+
 }
 

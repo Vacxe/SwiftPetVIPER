@@ -8,17 +8,17 @@
 
 import Foundation
 
-public class ProductionRepository : Repository{    
-    let dataStore : DataStore
-    
-    init(dataStore : DataStore) {
+public class ProductionRepository: Repository {
+    let dataStore: DataStore
+
+    init(dataStore: DataStore) {
         self.dataStore = dataStore
     }
-    
+
     public func getCount() -> Int {
         return dataStore.getValue()
     }
-    
+
     public func setCount(value: Int) {
         dataStore.setValue(value: value)
     }

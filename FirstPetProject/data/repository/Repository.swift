@@ -8,7 +8,8 @@
 
 import Foundation
 
-public protocol Repository{
+public protocol Repository {
     func getCount() -> Int
-    func setCount(value : Int)
+
+    func setCount(value: Int)
 }

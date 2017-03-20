@@ -8,12 +8,12 @@
 
 import Foundation
 
-class IncrementInteractor : Interactor{
+class IncrementInteractor: Interactor {
     typealias R = Int
     typealias T = Int
-    
+
     public func execute(value: Int) -> Int {
-        var count : Int =  App.instance.getRepository().getCount()
+        var count: Int = App.instance.getRepository().getCount()
         count = count + 1
         App.instance.getRepository().setCount(value: count)
         return count

@@ -1,5 +1,5 @@
 //
-//  Interactor.swift
+//  DataStore.swift
 //  FirstPetProject
 //
 //  Created by Константин Аксенов on 20.03.17.
@@ -8,9 +8,8 @@
 
 import Foundation
 
-public protocol Interactor{
-    associatedtype T
-    associatedtype R
-    
-    func execute(value: R) ->  T
+public protocol DataStore {
+    func setValue(value: Int)
+
+    func getValue() -> Int
 }

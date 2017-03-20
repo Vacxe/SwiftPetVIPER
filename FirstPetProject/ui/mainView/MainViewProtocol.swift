@@ -8,6 +8,6 @@
 
 import Foundation
 
-public protocol MainViewProtocol{
-    func setButtonName(name : String)
+public protocol MainViewProtocol {
+    func setButtonName(name: String)
 }
