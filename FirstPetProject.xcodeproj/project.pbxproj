@@ -14,16 +14,14 @@
 		BF25A4A91E7FF271007FE5DD /* ProductionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF25A4A81E7FF271007FE5DD /* ProductionRepository.swift */; };
 		BF25A4AC1E7FF3DA007FE5DD /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF25A4AB1E7FF3DA007FE5DD /* DataStore.swift */; };
 		BF25A4AE1E7FF433007FE5DD /* ProductionDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF25A4AD1E7FF433007FE5DD /* ProductionDataStore.swift */; };
+		BF25A4BD1E813376007FE5DD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF25A4BB1E813376007FE5DD /* MainViewController.swift */; };
+		BF25A4BE1E813376007FE5DD /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF25A4BC1E813376007FE5DD /* MainViewController.xib */; };
 		BFE238C11E7C325600699EFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE238C01E7C325600699EFA /* AppDelegate.swift */; };
-		BFE238C31E7C325600699EFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE238C21E7C325600699EFA /* ViewController.swift */; };
-		BFE238C61E7C325600699EFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE238C41E7C325600699EFA /* Main.storyboard */; };
 		BFE238C81E7C325600699EFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE238C71E7C325600699EFA /* Assets.xcassets */; };
-		BFE238CB1E7C325600699EFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE238C91E7C325600699EFA /* LaunchScreen.storyboard */; };
 		BFE238D61E7C325600699EFA /* FirstPetProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE238D51E7C325600699EFA /* FirstPetProjectTests.swift */; };
 		BFE238E11E7C325600699EFA /* FirstPetProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE238E01E7C325600699EFA /* FirstPetProjectUITests.swift */; };
 		BFE238F11E7C340700699EFA /* MainViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE238F01E7C340700699EFA /* MainViewPresenter.swift */; };
 		BFE238F31E7C345900699EFA /* MainViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE238F21E7C345900699EFA /* MainViewProtocol.swift */; };
-		BFE238F51E7C349A00699EFA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE238F41E7C349A00699EFA /* MainView.swift */; };
 		BFE238F71E7C38D800699EFA /* MainPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE238F61E7C38D800699EFA /* MainPresenterProtocol.swift */; };
 		BFE238F91E7C436D00699EFA /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE238F81E7C436D00699EFA /* BasePresenter.swift */; };
 /* End PBXBuildFile section */
@@ -53,12 +51,11 @@
 		BF25A4A81E7FF271007FE5DD /* ProductionRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductionRepository.swift; path = data/repository/ProductionRepository.swift; sourceTree = "<group>"; };
 		BF25A4AB1E7FF3DA007FE5DD /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataStore.swift; path = data/datastore/DataStore.swift; sourceTree = "<group>"; };
 		BF25A4AD1E7FF433007FE5DD /* ProductionDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductionDataStore.swift; path = data/datastore/ProductionDataStore.swift; sourceTree = "<group>"; };
+		BF25A4BB1E813376007FE5DD /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ui/mainView/MainViewController.swift; sourceTree = "<group>"; };
+		BF25A4BC1E813376007FE5DD /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = ui/mainView/MainViewController.xib; sourceTree = "<group>"; };
 		BFE238BD1E7C325600699EFA /* FirstPetProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstPetProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE238C01E7C325600699EFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BFE238C21E7C325600699EFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BFE238C51E7C325600699EFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFE238C71E7C325600699EFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BFE238CA1E7C325600699EFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFE238CC1E7C325600699EFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFE238D11E7C325600699EFA /* FirstPetProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstPetProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE238D51E7C325600699EFA /* FirstPetProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPetProjectTests.swift; sourceTree = "<group>"; };
@@ -68,7 +65,6 @@
 		BFE238E21E7C325600699EFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFE238F01E7C340700699EFA /* MainViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewPresenter.swift; path = ui/mainView/MainViewPresenter.swift; sourceTree = "<group>"; };
 		BFE238F21E7C345900699EFA /* MainViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewProtocol.swift; path = ui/mainView/MainViewProtocol.swift; sourceTree = "<group>"; };
-		BFE238F41E7C349A00699EFA /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainView.swift; path = ui/mainView/MainView.swift; sourceTree = "<group>"; };
 		BFE238F61E7C38D800699EFA /* MainPresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainPresenterProtocol.swift; path = ui/mainView/MainPresenterProtocol.swift; sourceTree = "<group>"; };
 		BFE238F81E7C436D00699EFA /* BasePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BasePresenter.swift; path = ui/BasePresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -170,10 +166,7 @@
 				BF25A49C1E7FDEB6007FE5DD /* domain */,
 				BFE238EE1E7C33C100699EFA /* ui */,
 				BFE238C01E7C325600699EFA /* AppDelegate.swift */,
-				BFE238C21E7C325600699EFA /* ViewController.swift */,
-				BFE238C41E7C325600699EFA /* Main.storyboard */,
 				BFE238C71E7C325600699EFA /* Assets.xcassets */,
-				BFE238C91E7C325600699EFA /* LaunchScreen.storyboard */,
 				BFE238CC1E7C325600699EFA /* Info.plist */,
 			);
 			path = FirstPetProject;
@@ -211,8 +204,9 @@
 			children = (
 				BFE238F01E7C340700699EFA /* MainViewPresenter.swift */,
 				BFE238F21E7C345900699EFA /* MainViewProtocol.swift */,
-				BFE238F41E7C349A00699EFA /* MainView.swift */,
 				BFE238F61E7C38D800699EFA /* MainPresenterProtocol.swift */,
+				BF25A4BB1E813376007FE5DD /* MainViewController.swift */,
+				BF25A4BC1E813376007FE5DD /* MainViewController.xib */,
 			);
 			name = mainView;
 			sourceTree = "<group>";
@@ -324,9 +318,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFE238CB1E7C325600699EFA /* LaunchScreen.storyboard in Resources */,
 				BFE238C81E7C325600699EFA /* Assets.xcassets in Resources */,
-				BFE238C61E7C325600699EFA /* Main.storyboard in Resources */,
+				BF25A4BE1E813376007FE5DD /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,8 +345,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF25A4AC1E7FF3DA007FE5DD /* DataStore.swift in Sources */,
+				BF25A4BD1E813376007FE5DD /* MainViewController.swift in Sources */,
 				BF25A4A91E7FF271007FE5DD /* ProductionRepository.swift in Sources */,
-				BFE238C31E7C325600699EFA /* ViewController.swift in Sources */,
 				BFE238F91E7C436D00699EFA /* BasePresenter.swift in Sources */,
 				BF25A4AE1E7FF433007FE5DD /* ProductionDataStore.swift in Sources */,
 				BF25A4A71E7FF1A6007FE5DD /* App.swift in Sources */,
@@ -361,7 +354,6 @@
 				BF25A4A21E7FE096007FE5DD /* IncrementInteractor.swift in Sources */,
 				BFE238F11E7C340700699EFA /* MainViewPresenter.swift in Sources */,
 				BFE238F71E7C38D800699EFA /* MainPresenterProtocol.swift in Sources */,
-				BFE238F51E7C349A00699EFA /* MainView.swift in Sources */,
 				BF25A4A51E7FF144007FE5DD /* Repository.swift in Sources */,
 				BF25A4A01E7FDF67007FE5DD /* Interactor.swift in Sources */,
 				BFE238F31E7C345900699EFA /* MainViewProtocol.swift in Sources */,
@@ -398,25 +390,6 @@
 			targetProxy = BFE238DD1E7C325600699EFA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		BFE238C41E7C325600699EFA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BFE238C51E7C325600699EFA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BFE238C91E7C325600699EFA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BFE238CA1E7C325600699EFA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BFE238E31E7C325600699EFA /* Debug */ = {
