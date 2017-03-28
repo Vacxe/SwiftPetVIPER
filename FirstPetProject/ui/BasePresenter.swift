@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class BasePresenter<V> {
+public class BasePresenter<V> : NSObject {
     var view: V?
 
     public func setVew(view: V) {

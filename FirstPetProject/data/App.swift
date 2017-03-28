@@ -7,19 +7,25 @@
 //
 
 import Foundation
+import Swinject
 
 public final class App {
 
     static let instance: App = App()
-    private let dataStore: DataStore
-    private let repository: Repository
-
+    let container = Container()
+    
+    var repository : Repository{
+        return self.container.resolve(Repository.self)!
+    }
+ 
     private init() {
-        dataStore = ProductionDataStore()
-        repository = ProductionRepository(dataStore: dataStore)
+        container.register(DataStore.self) { _ in ProductionDataStore() }
+        container.register(Repository.self) {r in
+            ProductionRepository(dataStore: r.resolve(DataStore.self)!)
+        }.inObjectScope(.container)
     }
 
     public func getRepository() -> Repository {
-        return self.repository
+        return repository
     }
 }

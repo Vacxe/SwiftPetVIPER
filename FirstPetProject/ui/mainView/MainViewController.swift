@@ -17,19 +17,29 @@ class MainViewController: UIViewController, MainViewProtocol {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        presenter.setVew(view: self)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }    
 
+    override func viewDidAppear(_ animated: Bool) {
+        presenter.setVew(view: self)
+    }
+    
     override func viewDidDisappear(_ animated: Bool) {
         presenter.dropView()
     }
     
     @IBAction func onButtonClick(_ sender: Any) {
         presenter.buttonClicked()
+    }
+    
+    @IBAction func openLoadImageView(_ sender: Any) {
+        let loadImageViewController : UIViewController = LoadImageViewController()
+        self.present(loadImageViewController, animated: true) { 
+            
+        }
     }
     
     func setButtonName(name: String) {
